@@ -1,0 +1,34 @@
+@mixin flex-alignCenter() {
+  display: flex;
+  align-items: center;
+}
+
+.container-item {
+  position: relative;
+  padding: 3%;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.89);
+  color: rgba(0, 0, 0, 0.788);
+  margin: 15px 0;
+
+  @include flex-alignCenter();
+  justify-content: space-between;
+
+  & > div:nth-child(1) {
+    @include flex-alignCenter();
+  }
+
+  h5 {
+    margin: 0 15px;
+  }
+
+  button {
+    font-size: 16px;
+    color: rgb(65, 65, 65);
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    margin-right: 5px;
+  }
+}

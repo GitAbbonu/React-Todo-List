@@ -1,0 +1,28 @@
+.container-item {
+  position: relative;
+  padding: 3%;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.89);
+  color: rgba(0, 0, 0, 0.788);
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container-item > div:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+.container-item h5 {
+  margin: 0 15px;
+}
+.container-item button {
+  font-size: 16px;
+  color: rgb(65, 65, 65);
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+/*# sourceMappingURL=toDoItem.css.map */
